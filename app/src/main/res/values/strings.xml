@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Adivina la bandera!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="number_of_choices">Numero de opciones</string>
+    <string name="number_of_choices_description">Pantalla 2, 4, 6 u 8 botones</string>
+    <string name="world_regions">Regiones</string>
+    <string name="world_regions_description">Regiones para la pregunta</string>
+    <string name="guess_country">Adivina el país</string>
+    <string name="results">%1$d adivinanzas, %2$.02f%% correcto</string>
+    <string name="incorrect_answer">Incorrecto!</string>
+    <string name="default_region_message">
+        Debe seleccionarse una región. Establecer Europa como región predeterminada.
+    </string>
+    <string name="restarting_quiz">La prueba se reiniciará con su nueva configuración</string>
+    <string name="question">Pregunta %1$d de %2$d</string>
+    <string name="reset_quiz">Resetear pregunta</string>
+    <string name="image_description">Imagen de la bandera actual en el cuestionario</string>
+    <string name="default_region">Europa</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="tv_titulo">Mantenimiento de Clientes</string>
+    <string name="et_Codigo">Codigo</string>
+    <string name="et_Nombre">Ingrese Nombre</string>
+    <string name="et_Apellido">Ingrese Apellido</string>
+    <string name="et_Correo">Ingrese Correo</string>
+
+    <string name="btn_insertar">Insertar</string>
+    <string name="btn_buscar">Buscar Por Codigo</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="et_Passwd">Contraseña</string>
+    <string name="et_Usr">Usuario</string>
+</resources>
