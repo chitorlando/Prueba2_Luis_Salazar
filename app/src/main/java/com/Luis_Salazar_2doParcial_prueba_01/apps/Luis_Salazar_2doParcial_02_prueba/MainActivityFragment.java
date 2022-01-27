@@ -41,6 +41,8 @@ public class MainActivityFragment extends Fragment {
     private TableRow[] guessTableRows;
     private TextView answerTextView;
     private QuizViewModel quizViewModel;
+    private int count = 0;
+    private TextView level;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -65,7 +67,7 @@ public class MainActivityFragment extends Fragment {
 
         this.guessTableRows = new TableRow[4];
         this.answerTextView = view.findViewById(R.id.answerTextView);
-
+        this.level = view.findViewById(R.id.txtLevel);
 
 
         for (int i = 0; i < answersTableLayout.getChildCount(); i++) {
@@ -92,6 +94,23 @@ public class MainActivityFragment extends Fragment {
 
     public void updateGuessRows() {
 
+        switch (count){
+            case 1:
+                this.quizViewModel.setGuessRows("2");
+                break;
+            case 2:
+                this.quizViewModel.setGuessRows("4");
+                break;
+            case 3:
+                this.quizViewModel.setGuessRows("6");
+                break;
+            case 4:
+                this.quizViewModel.setGuessRows("8");
+                break;
+            default:
+                this.quizViewModel.setGuessRows("2");
+        }
+
         int numberOfGuessRows = this.quizViewModel.getGuessRows();
         for (TableRow row : this.guessTableRows) {
             row.setVisibility(View.GONE);
@@ -108,6 +127,9 @@ public class MainActivityFragment extends Fragment {
         this.quizViewModel.resetCorrectAnswers();
         this.quizViewModel.clearQuizCountriesList();
 
+        if (count > 4) {
+            count = 1;
+        }
         int flagCounter = 1;
         int numberOfFlags = this.quizViewModel.getFileNameList().size();
         while (flagCounter <= QuizViewModel.getFlagsInQuiz()) {
@@ -120,6 +142,8 @@ public class MainActivityFragment extends Fragment {
                 ++flagCounter;
             }
         }
+        level.setText("    Nivel: " + String.valueOf(count + 1));
+        count++;
         this.updateGuessRows();
         this.loadNextFlag();
     }
