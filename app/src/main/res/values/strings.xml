@@ -29,6 +29,7 @@
     <string name="btn_eliminar">Eliminar</string>
     <string name="btn_editar">Editar</string>
     <string name="et_Passwd">Contraseña</string>
+    <string name="et_Usr">U</string>
     <string name="et_Usr1">Usuario 1</string>
     <string name="et_Usr2">Usuario 2</string>
     <string name="Usr_name1">luisSalazar</string>
