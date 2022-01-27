@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_01_prueba.SettingsActivityFragment"
+        android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.SettingsActivityFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
@@ -36,7 +36,7 @@
 
     <fragment
         android:id="@+id/quizFragment"
-        android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_01_prueba.MainActivityFragment"
+        android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivityFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
