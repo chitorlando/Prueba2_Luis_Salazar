@@ -56,6 +56,8 @@ public class MainActivity_LOSR extends AppCompatActivity {
         this.setSharedPreferences();
         this.screenSetUp();
         txtUser = findViewById(R.id.txtNickname);
+        String nickName = getIntent().getStringExtra("nickname");
+        txtUser.setText(" Hola \t" + nickName);
     }
 
     @Override
