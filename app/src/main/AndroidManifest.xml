@@ -22,7 +22,7 @@
         </intent-filter>
         </activity>
         <activity
-            android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity"
+            android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity_LOSR"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar">
@@ -30,11 +30,11 @@
         <activity
             android:name="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity"
+            android:parentActivityName="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity_LOSR"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity" />
+                android:value="com.Luis_Salazar_2doParcial_prueba_01.apps.Luis_Salazar_2doParcial_02_prueba.MainActivity_LOSR" />
         </activity>
     </application>
 
