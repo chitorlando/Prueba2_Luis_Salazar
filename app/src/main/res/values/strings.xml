@@ -29,5 +29,10 @@
     <string name="btn_eliminar">Eliminar</string>
     <string name="btn_editar">Editar</string>
     <string name="et_Passwd">Contraseña</string>
-    <string name="et_Usr">Usuario</string>
+    <string name="et_Usr1">Usuario 1</string>
+    <string name="et_Usr2">Usuario 2</string>
+    <string name="Usr_name1">luisSalazar</string>
+    <string name="Usr_name2">orlandoRamos</string>
+    <string name="pass_name1">accesoLuis1</string>
+    <string name="pass_name2">accesoOrlando2</string>
 </resources>
