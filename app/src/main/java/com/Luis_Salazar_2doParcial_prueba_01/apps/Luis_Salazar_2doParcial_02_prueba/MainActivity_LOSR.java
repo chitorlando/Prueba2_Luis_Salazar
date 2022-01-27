@@ -27,10 +27,8 @@ public class MainActivity_LOSR extends AppCompatActivity {
     private TextView txtUser;
 
     private void setSharedPreferences() {
-        // set default values in the app's SharedPreferences
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 
-        // Register a listener for shared preferences changes
         PreferenceManager.getDefaultSharedPreferences(this)
                 .registerOnSharedPreferenceChangeListener(preferencesChangeListener);
     }
@@ -81,7 +79,6 @@ public class MainActivity_LOSR extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         int orientation = getResources().getConfiguration().orientation;
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-            // Inflate the menu; this adds items to the action bar if it is present.
             getMenuInflater().inflate(R.menu.menu_main, menu);
             return true;
         } else {
