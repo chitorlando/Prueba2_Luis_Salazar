@@ -120,7 +120,6 @@ public class MainActivityFragment extends Fragment {
                 ++flagCounter;
             }
         }
-
         this.updateGuessRows();
         this.loadNextFlag();
     }
